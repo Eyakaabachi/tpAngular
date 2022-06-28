@@ -7,7 +7,17 @@
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
-<div class="contaianer text-center mt-5 mb-5">
-  <h1>Tp Angular</h1>
+<div class="contaianer text-center mt -5 mb -5">
+  <h1>TP ANGULAR</h1>
+  <p>Interpolation : {{title}} : 7</p>
+  <p>Interpolation avec methode : {{getTitle()}}</p>
+  <div>
+    <label>Property binding</label>
+    <input type="text" [value]="my_value">
+  </div>
+  <div>
+    <label>Event binding</label>
+    <button type="button" class="btn btn-primary" click="updateTitle()">Modifier titre</button>
+  </div>
 </div>
 <router-outlet></router-outlet>
