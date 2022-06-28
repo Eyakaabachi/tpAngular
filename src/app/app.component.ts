@@ -14,4 +14,6 @@ export class AppComponent {
   updateTitle(){
     this.title ='Nouveau titre';
   }
+  isClassVisible = false;
+
 }
