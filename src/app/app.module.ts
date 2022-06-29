@@ -8,6 +8,8 @@ import { HighlightDirective } from './highlight.directive';
 import { ChildComponent } from './child/child.component';
 import { ParentComponent } from './parent/parent.component';
 import { TitleComponent } from './title/title.component';
+import { FirstComponent } from './first/first.component';
+import { SecondComponent } from './second/second.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { TitleComponent } from './title/title.component';
     HighlightDirective,
     ChildComponent,
     ParentComponent,
-    TitleComponent
+    TitleComponent,
+    FirstComponent,
+    SecondComponent
   ],
   imports: [
     BrowserModule,

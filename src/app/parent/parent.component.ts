@@ -9,7 +9,7 @@ import { TitleComponent } from '../title/title.component';
 })
 export class ParentComponent implements OnInit {
   @ViewChild(ChildComponent, {static:false}) child: ChildComponent = new ChildComponent;
-  @ViewChild(ChildComponent, {static:false}) fils: QueryList <ChildComponent> | undefined;
+  @ViewChild(ChildComponent) fils: QueryList <ChildComponent> | undefined;
   @ViewChild(TitleComponent, {static:false}) title: TitleComponent = new TitleComponent;
   tab: Array<string> = ['premier','deuxieme','troisieme'];
   ville: Array<string> =['Gafsa','Monastir','Sousse'];
