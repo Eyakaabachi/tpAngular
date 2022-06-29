@@ -10,6 +10,9 @@ import { ParentComponent } from './parent/parent.component';
 import { TitleComponent } from './title/title.component';
 import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
+import { ChatComponent } from './chat/chat.component';
+import { ParticipantComponent } from './participant/participant.component';
+import { MessageComponent } from './message/message.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { SecondComponent } from './second/second.component';
     ParentComponent,
     TitleComponent,
     FirstComponent,
-    SecondComponent
+    SecondComponent,
+    ChatComponent,
+    ParticipantComponent,
+    MessageComponent
   ],
   imports: [
     BrowserModule,
