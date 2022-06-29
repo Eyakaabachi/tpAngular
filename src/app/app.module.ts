@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { HighlightDirective } from './highlight.directive';
 import { ChildComponent } from './child/child.component';
 import { ParentComponent } from './parent/parent.component';
+import { TitleComponent } from './title/title.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HighlightDirective,
     ChildComponent,
-    ParentComponent
+    ParentComponent,
+    TitleComponent
   ],
   imports: [
     BrowserModule,

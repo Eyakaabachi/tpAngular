@@ -1,6 +1,8 @@
+<ng-content select="app-title"></ng-content>
+<h3>Moyenne de mes enfants {{moyenne}}</h3>
 <ul>
-    <app-child [order]="tab[0]" [villeNaissance]="ville[0]"></app-child>
-    <app-child [order]="tab[1]" [villeNaissance]="ville[1]"></app-child>
-    <app-child [order]="tab[2]" [villeNaissance]="ville[2]"></app-child>
+    <app-child (message)="computeAvg($event)" [order]="tab[0]" [villeNaissance]="ville[0]"></app-child>
+    <app-child (message)="computeAvg($event)" [order]="tab[1]" [villeNaissance]="ville[1]"></app-child>
+    <app-child (message)="computeAvg($event)" [order]="tab[2]" [villeNaissance]="ville[2]"></app-child>
 
 </ul>

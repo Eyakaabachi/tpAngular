@@ -1,3 +1,5 @@
 <li>
     je suis le {{ order }}  fils et suis de {{ villeNaissance }}
 </li>
+<input type=number name=note [(ngModel)]=note>
+<button (click)="send()" [disabled]="buttonStatus">Send</button>
